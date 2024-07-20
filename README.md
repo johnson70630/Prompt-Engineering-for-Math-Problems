@@ -8,14 +8,14 @@ As we known, LLMs are not good at inference, especially with mathematical proble
 
 The prompt **"Let's work this out in a step by step way to be sure we have the right answer."** elicits Chain-of-Thought Prompting reasoning and improves performance on the MultiArith and GSM8K benchmarks:
 
-![image](images/Auto.png)
+![image](img/Auto.png)
 
 
 
 ### DUP
 [Deeply Understanding the Problems Makes LLMs Better Reasoners](https://arxiv.org/abs/2404.14963v2)
 
-![image](images/DUP.png)
+![image](img/DUP.png)
 
 ### Prompt Example of DUP
 ```
@@ -28,7 +28,7 @@ Stage 3. Hint: [Problem-Solving Info]\n[Core Question]\n Please understand the H
 ### ToT
 [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
 
-![image](images/ToT.webp)
+![image](img/ToT.webp)
 
 ### Prompt Example of ToT
 ```
